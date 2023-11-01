@@ -1,4 +1,4 @@
 resource "google_storage_bucket" "notifications" {
-  name = "my-unique-bucket-name"
+  name = "notifications"
   location = "US"
 }
